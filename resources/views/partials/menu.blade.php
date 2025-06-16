@@ -114,7 +114,7 @@
                                 </ul>
                             </li>
 
-                            @if(Qs::userIsTeamSA())
+                            <!-- @if(Qs::userIsTeamSA())
 
                             {{--Student Promotion--}}
                             <li class="nav-item nav-item-submenu {{ in_array(Route::currentRouteName(), ['students.promotion', 'students.promotion_manage']) ? 'nav-item-expanded' : '' }}"><a href="#" class="nav-link {{ in_array(Route::currentRouteName(), ['students.promotion', 'students.promotion_manage' ]) ? 'active' : '' }}">Student Promotion</a>
@@ -127,7 +127,7 @@
 
                             {{--Student Graduated--}}
                             <li class="nav-item"><a href="{{ route('students.graduated') }}" class="nav-link {{ in_array(Route::currentRouteName(), ['students.graduated' ]) ? 'active' : '' }}">Students Graduated</a></li>
-                                @endif
+                                @endif -->
 
                         </ul>
                     </li>
@@ -191,7 +191,7 @@
                             </li>
                         @endif -->
 
-                        @if(Qs::userIsTeamSAT())
+                        <!-- @if(Qs::userIsTeamSAT())
                             {{--Marks Manage--}}
                             <li class="nav-item">
                                 <a href="{{ route('marks.index') }}"
@@ -203,7 +203,7 @@
                                 <a href="{{ route('marks.bulk') }}" class="nav-link {{ in_array(Route::currentRouteName(), ['marks.bulk', 'marks.show']) ? 'active' : '' }}">Marksheet</a>
                             </li>
 
-                            @endif
+                            @endif -->
 
                     </ul>
                 </li>
